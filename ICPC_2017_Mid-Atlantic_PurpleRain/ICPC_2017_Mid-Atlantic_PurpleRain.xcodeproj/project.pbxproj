@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F700D3B92339D07C00A5C173 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F700D3B82339D07C00A5C173 /* main.cpp */; };
+		F73588BC235EC0E300D705DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F73588BB235EC0E300D705DA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F700D3B32339D07C00A5C173 /* CopyFiles */ = {
+		F73588B6235EC0E300D705DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F700D3B52339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ICPC_2018_MidCentral_RepeatedSubstrings; sourceTree = BUILT_PRODUCTS_DIR; };
-		F700D3B82339D07C00A5C173 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F73588B8235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ICPC_2017_Mid-Atlantic_PurpleRain"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73588BB235EC0E300D705DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F700D3B22339D07C00A5C173 /* Frameworks */ = {
+		F73588B5235EC0E300D705DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F700D3AC2339D07C00A5C173 = {
+		F73588AF235EC0E300D705DA = {
 			isa = PBXGroup;
 			children = (
-				F700D3B72339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */,
-				F700D3B62339D07C00A5C173 /* Products */,
+				F73588BA235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */,
+				F73588B9235EC0E300D705DA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F700D3B62339D07C00A5C173 /* Products */ = {
+		F73588B9235EC0E300D705DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F700D3B52339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */,
+				F73588B8235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F700D3B72339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */ = {
+		F73588BA235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */ = {
 			isa = PBXGroup;
 			children = (
-				F700D3B82339D07C00A5C173 /* main.cpp */,
+				F73588BB235EC0E300D705DA /* main.cpp */,
 			);
-			path = ICPC_2018_MidCentral_RepeatedSubstrings;
+			path = "ICPC_2017_Mid-Atlantic_PurpleRain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F700D3B42339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */ = {
+		F73588B7235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F700D3BC2339D07C00A5C173 /* Build configuration list for PBXNativeTarget "ICPC_2018_MidCentral_RepeatedSubstrings" */;
+			buildConfigurationList = F73588BF235EC0E300D705DA /* Build configuration list for PBXNativeTarget "ICPC_2017_Mid-Atlantic_PurpleRain" */;
 			buildPhases = (
-				F700D3B12339D07C00A5C173 /* Sources */,
-				F700D3B22339D07C00A5C173 /* Frameworks */,
-				F700D3B32339D07C00A5C173 /* CopyFiles */,
+				F73588B4235EC0E300D705DA /* Sources */,
+				F73588B5235EC0E300D705DA /* Frameworks */,
+				F73588B6235EC0E300D705DA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ICPC_2018_MidCentral_RepeatedSubstrings;
-			productName = ICPC_2018_MidCentral_RepeatedSubstrings;
-			productReference = F700D3B52339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */;
+			name = "ICPC_2017_Mid-Atlantic_PurpleRain";
+			productName = "ICPC_2017_Mid-Atlantic_PurpleRain";
+			productReference = F73588B8235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F700D3AD2339D07C00A5C173 /* Project object */ = {
+		F73588B0235EC0E300D705DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Le Zhang";
 				TargetAttributes = {
-					F700D3B42339D07C00A5C173 = {
-						CreatedOnToolsVersion = 11.0;
+					F73588B7235EC0E300D705DA = {
+						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = F700D3B02339D07C00A5C173 /* Build configuration list for PBXProject "ICPC_2018_MidCentral_RepeatedSubstrings" */;
+			buildConfigurationList = F73588B3235EC0E300D705DA /* Build configuration list for PBXProject "ICPC_2017_Mid-Atlantic_PurpleRain" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = F700D3AC2339D07C00A5C173;
-			productRefGroup = F700D3B62339D07C00A5C173 /* Products */;
+			mainGroup = F73588AF235EC0E300D705DA;
+			productRefGroup = F73588B9235EC0E300D705DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F700D3B42339D07C00A5C173 /* ICPC_2018_MidCentral_RepeatedSubstrings */,
+				F73588B7235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F700D3B12339D07C00A5C173 /* Sources */ = {
+		F73588B4235EC0E300D705DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F700D3B92339D07C00A5C173 /* main.cpp in Sources */,
+				F73588BC235EC0E300D705DA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F700D3BA2339D07C00A5C173 /* Debug */ = {
+		F73588BD235EC0E300D705DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		F700D3BB2339D07C00A5C173 /* Release */ = {
+		F73588BE235EC0E300D705DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,20 +235,20 @@
 			};
 			name = Release;
 		};
-		F700D3BD2339D07C00A5C173 /* Debug */ = {
+		F73588C0235EC0E300D705DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		F700D3BE2339D07C00A5C173 /* Release */ = {
+		F73588C1235EC0E300D705DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -256,25 +256,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F700D3B02339D07C00A5C173 /* Build configuration list for PBXProject "ICPC_2018_MidCentral_RepeatedSubstrings" */ = {
+		F73588B3235EC0E300D705DA /* Build configuration list for PBXProject "ICPC_2017_Mid-Atlantic_PurpleRain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F700D3BA2339D07C00A5C173 /* Debug */,
-				F700D3BB2339D07C00A5C173 /* Release */,
+				F73588BD235EC0E300D705DA /* Debug */,
+				F73588BE235EC0E300D705DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F700D3BC2339D07C00A5C173 /* Build configuration list for PBXNativeTarget "ICPC_2018_MidCentral_RepeatedSubstrings" */ = {
+		F73588BF235EC0E300D705DA /* Build configuration list for PBXNativeTarget "ICPC_2017_Mid-Atlantic_PurpleRain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F700D3BD2339D07C00A5C173 /* Debug */,
-				F700D3BE2339D07C00A5C173 /* Release */,
+				F73588C0235EC0E300D705DA /* Debug */,
+				F73588C1235EC0E300D705DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F700D3AD2339D07C00A5C173 /* Project object */;
+	rootObject = F73588B0235EC0E300D705DA /* Project object */;
 }

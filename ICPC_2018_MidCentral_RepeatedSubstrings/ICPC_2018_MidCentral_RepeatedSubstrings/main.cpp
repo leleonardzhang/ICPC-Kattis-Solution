@@ -16,7 +16,7 @@ int biggestcharpt = -1;
 int maxtric[10000][10000] = {};
 char charlist[100000] = {};
 char biggestchar = 'z';
-int pt[10000000][2] = {0};
+int pt[100000][2] = {0};
 
 void compare(int i, int j);
 void alphabetical(void);
