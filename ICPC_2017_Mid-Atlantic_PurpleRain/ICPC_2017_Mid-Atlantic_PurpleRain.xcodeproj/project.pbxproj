@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F72B90B1235F8572007A348C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F73588B8235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ICPC_2017_Mid-Atlantic_PurpleRain"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73588BB235EC0E300D705DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,11 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F72B90B0235F8572007A348C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72B90B1235F8572007A348C /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F73588AF235EC0E300D705DA = {
 			isa = PBXGroup;
 			children = (
 				F73588BA235EC0E300D705DA /* ICPC_2017_Mid-Atlantic_PurpleRain */,
 				F73588B9235EC0E300D705DA /* Products */,
+				F72B90B0235F8572007A348C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +107,7 @@
 				};
 			};
 			buildConfigurationList = F73588B3235EC0E300D705DA /* Build configuration list for PBXProject "ICPC_2017_Mid-Atlantic_PurpleRain" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
